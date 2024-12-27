@@ -13,40 +13,41 @@ Transforming a Raspberry Pi Pico into a "Bad USB" (Inspired from Hak5's RubberDu
 - <b>Python</b> 
 - <b>Circut Python</b>
 - <b>Raspberry Pi Pico</b>
- <b>Micro-USB to USB-A</b>
+- <b>Micro-USB to USB-A</b>
 
 <h2>Operating System </h2>
 
-- <b>Windows 10</b>
+- <b>Windows 10-11</b>
 
 <h2>Walk-through:</h2>
 
 <p align="center">
-Plug  Raspberry Pi into PC: <br/>
-<img src="https://imgur.com/a/aTfneGV" height="80%" width="80%" />
+Plug Raspberry Pi into PC: <br/>
+<img src="https://i.imgur.com/th24D8a_d.jpeg?maxwidth=520&shape=thumb&fidelity=high" height="80%" width="80%" />
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Download CircutPython and install on Pico:  <br/>
+<img src="https://i.imgur.com/Ra5URfX_d.png?maxwidth=520&shape=thumb&fidelity=high" height="80%" width="80%" />
+ <img src="https://i.imgur.com/0zjcmO4.png" height="80%" width="80%" />
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Download adafruit-circuit-python-bundle-.6x-mpy-20210130.zip [HERE](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/tag/20210130): <br/>
+<img src="https://i.imgur.com/p5Dr51D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />Extract to another folder then click on libs and drag adafruit_hid onto Pico lib folder:  <br/>
+<img src="https://i.imgur.com/jLUQRqd.png" height="80%" width="80%" />
+ <img src="https://i.imgur.com/GZZ5Kmi.png" height="80%" width="80%" />
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Dowwnload script from [HERE](https://github.com/dbisu/pico-ducky/blob/main/duckyinpython.py) Delete old code.py file. Then drag duckyinpython file onto Pico and rename to code.py:  <br/>
+<img src="https://i.imgur.com/9AR5Tcp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Download payloads and scripts from [HERE](https://github.com/hak5/usbrubberducky-payloads/tree/master/payloads/library/prank):  <br/>
+<img src="https://i.imgur.com/ZwKS2bh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
+Note: This may not work on newer versions of Windows:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
