@@ -47,8 +47,8 @@ Download payloads and scripts from [HERE](https://github.com/hak5/usbrubberducky
 <img src="https://i.imgur.com/ZwKS2bh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Note: This may not work on newer versions of Windows:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+To install script on Pico make a notepad file with your desired payload script. then save it as a .dd file. Drag the file onto the Pico and instantly unplug your Pico in order to prevent the payload from running on your system. This is for educational purposes only. Please use this responsbily.  <br/>
+<img src=""/>
 </p>
 
 <!--
