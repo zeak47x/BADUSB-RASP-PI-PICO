@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-Transforming a Raspberry Pi Pico into a "Bad USB" (Inspired from Hak5's RubberDucky) This is done by the Pi pretending to be a Human Interface Device(HID) such as a keyboard. The Bad Usb can type at 1,000+ WPM and can be used to bruteforce passwords and execute various payloads that can be as funny as a Rick Roll or as dangerous as a password cracker. 
+This project transforms a Raspberry Pi Pico into a "Bad USB," a product popularized by Hak5's release of the "USB RubberDucky." The Raspberry Pi imitates a Human Interface Device (HID), such as a keyboard, and the computer recgonizes it as such. The Bad Usb then executes various commands the moment it is plugged in. It does so without the user's knowledge, and can extract sensitive information from the computer. On the other hand, the Bad Usb can load and play funny videos that make the unsuspecting user laugh.
 
 
 <br />
